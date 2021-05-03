@@ -25,6 +25,11 @@
   margin: 10px 0px;
   cursor: pointer;
   height: 40px;
+  border: 2px solid #ccc;
+}
+
+.input:hover {
+  border: 2px solid black;
 }
 
 .checkbox {
@@ -33,18 +38,21 @@
 }
 
 .button {
-  width: 150px;
+  width: 120px;
   height: 40px;
-  background-color: #fb3e3e;
+  background-color: #fb5e3e;
   color: white;
   margin: 15px;
-  top: 0;
+  font-weight: 700;
+  position: relative;
+  border: none;
+  top: 0px;
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #303030;
-  top: -10px;
+  background-color: #fb5e6d;
+  top: -7px;
 }
 
 .p-foot {
